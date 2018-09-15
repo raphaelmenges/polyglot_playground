@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+
+{% for entry in site.blog %}
+  <h2>
+    <a href="{{ entry.url }}">
+      {{ entry.title }}
+    </a>
+  </h2>
+{% endfor %}
