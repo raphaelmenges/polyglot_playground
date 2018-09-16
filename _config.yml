@@ -7,7 +7,7 @@ collections:
   blog:
     output:   true # outputs page per item
 plugins: [jekyll-polyglot]
-baseurl: "/"
+baseurl: ""
 languages: ["en", "de"]
 default_lang: "en"
 parallel_localization: false
